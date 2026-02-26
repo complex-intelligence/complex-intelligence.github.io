@@ -10,10 +10,10 @@
       <stop offset="0%" stop-color="#00bcd4" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#00bcd4" stop-opacity="0"/>
     </radialGradient>
-    <!-- Center fusion glow -->
-    <radialGradient id="fusionGlow" cx="50%" cy="50%" r="25%">
-      <stop offset="0%" stop-color="#0097a7" stop-opacity="0.15"/>
-      <stop offset="60%" stop-color="#0097a7" stop-opacity="0.05"/>
+    <!-- Center earth glow -->
+    <radialGradient id="earthGlow" cx="50%" cy="50%" r="25%">
+      <stop offset="0%" stop-color="#0097a7" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#0097a7" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#0097a7" stop-opacity="0"/>
     </radialGradient>
   </defs>
@@ -21,7 +21,7 @@
   <!-- Background glows -->
   <rect width="1200" height="500" fill="url(#neuralGlow)"/>
   <rect width="1200" height="500" fill="url(#digitalGlow)"/>
-  <rect width="1200" height="500" fill="url(#fusionGlow)"/>
+  <rect width="1200" height="500" fill="url(#earthGlow)"/>
 
   <!-- ===== LEFT SIDE: Human Intelligence - Organic Neural Network ===== -->
   <g stroke="#0097a7" fill="none">
@@ -62,44 +62,94 @@
     <path d="M260 200 Q275 185 285 170" stroke-width="0.6" opacity="0.1"/>
     <path d="M180 300 Q165 315 155 335" stroke-width="0.6" opacity="0.1"/>
     <path d="M340 260 Q355 250 365 235" stroke-width="0.6" opacity="0.1"/>
+
+    <!-- Neural paths reaching toward the globe -->
+    <path d="M340 260 Q400 255 460 248" stroke-width="1.2" opacity="0.18"/>
+    <path d="M300 140 Q380 170 460 210" stroke-width="0.8" opacity="0.12"/>
+    <path d="M240 340 Q350 320 460 290" stroke-width="0.8" opacity="0.12"/>
+    <path d="M260 200 Q360 210 460 230" stroke-width="1" opacity="0.15"/>
+    <path d="M180 300 Q320 300 460 275" stroke-width="0.7" opacity="0.1"/>
   </g>
 
-  <!-- ===== CENTER: Fusion Zone ===== -->
+  <!-- ===== CENTER: Globe / Earth ===== -->
   <g>
-    <!-- Central merging circle (subtle) -->
-    <circle cx="600" cy="250" r="80" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
-    <circle cx="600" cy="250" r="55" stroke="#0097a7" stroke-width="0.5" opacity="0.08" fill="none" stroke-dasharray="4 6"/>
+    <!-- Outer orbital ring (complex intelligence surrounding earth) -->
+    <ellipse cx="600" cy="250" rx="120" ry="120" stroke="#0097a7" stroke-width="0.8" opacity="0.1" fill="none"/>
+    <ellipse cx="600" cy="250" rx="105" ry="105" stroke="#0097a7" stroke-width="0.5" opacity="0.06" fill="none" stroke-dasharray="5 8"/>
 
-    <!-- Convergence nodes -->
-    <circle cx="520" cy="220" r="5" fill="#0097a7" opacity="0.3"/>
-    <circle cx="560" cy="280" r="4.5" fill="#0097a7" opacity="0.28"/>
-    <circle cx="600" cy="200" r="5.5" fill="#0097a7" opacity="0.35"/>
-    <circle cx="600" cy="300" r="4" fill="#0097a7" opacity="0.25"/>
-    <circle cx="640" cy="230" r="5" fill="#0097a7" opacity="0.32"/>
-    <circle cx="680" cy="270" r="4.5" fill="#0097a7" opacity="0.28"/>
-    <circle cx="600" cy="250" r="6" fill="#0097a7" opacity="0.18"/>
+    <!-- Globe main circle -->
+    <circle cx="600" cy="250" r="72" stroke="#0097a7" stroke-width="1.5" opacity="0.25" fill="none"/>
+    <circle cx="600" cy="250" r="72" fill="#0097a7" opacity="0.03"/>
 
-    <!-- Fusion connections (mix of curves and lines) -->
-    <path d="M520 220 Q560 210 600 200" stroke="#0097a7" stroke-width="1.2" opacity="0.2" fill="none"/>
-    <path d="M520 220 Q540 250 560 280" stroke="#0097a7" stroke-width="1" opacity="0.18" fill="none"/>
-    <path d="M600 200 Q620 215 640 230" stroke="#0097a7" stroke-width="1.2" opacity="0.22" fill="none"/>
-    <path d="M640 230 Q660 250 680 270" stroke="#0097a7" stroke-width="1" opacity="0.18" fill="none"/>
-    <path d="M560 280 Q580 290 600 300" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
-    <path d="M600 300 Q640 285 680 270" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
-    <path d="M600 200 Q600 225 600 250" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
-    <path d="M600 250 Q600 275 600 300" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
-    <path d="M520 220 Q560 235 600 250" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
-    <path d="M600 250 Q640 250 680 270" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <!-- Globe latitude lines -->
+    <ellipse cx="600" cy="250" rx="72" ry="18" stroke="#0097a7" stroke-width="0.7" opacity="0.12" fill="none"/>
+    <ellipse cx="600" cy="220" rx="66" ry="14" stroke="#0097a7" stroke-width="0.6" opacity="0.1" fill="none"/>
+    <ellipse cx="600" cy="280" rx="66" ry="14" stroke="#0097a7" stroke-width="0.6" opacity="0.1" fill="none"/>
 
-    <!-- Incoming paths from left (neural) side -->
-    <path d="M400 230 Q460 225 520 220" stroke="#0097a7" stroke-width="1" opacity="0.15" fill="none"/>
-    <path d="M420 290 Q490 285 560 280" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
-    <path d="M440 180 Q520 190 600 200" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <!-- Globe longitude / meridian lines -->
+    <ellipse cx="600" cy="250" rx="25" ry="72" stroke="#0097a7" stroke-width="0.7" opacity="0.12" fill="none"/>
+    <ellipse cx="600" cy="250" rx="52" ry="72" stroke="#0097a7" stroke-width="0.6" opacity="0.1" fill="none"/>
 
-    <!-- Outgoing paths to right (digital) side -->
-    <path d="M640 230 Q720 225 800 210" stroke="#0097a7" stroke-width="1" opacity="0.15" fill="none"/>
-    <path d="M680 270 Q730 275 780 290" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
-    <path d="M600 300 Q700 310 780 340" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <!-- Simplified continent shapes (symbolic, abstract) -->
+    <!-- Eurasia-like shape (upper area) -->
+    <path d="M575 200 Q582 195 595 198 Q610 196 620 200 Q632 198 638 205 Q642 212 635 218 Q640 225 636 230 Q630 228 625 232 Q618 230 612 233 Q605 230 598 232 Q590 228 585 225 Q578 220 575 212 Z" fill="#0097a7" opacity="0.12" stroke="none"/>
+    <!-- Africa-like shape (left-center) -->
+    <path d="M585 240 Q590 238 595 240 Q600 245 598 255 Q600 265 596 272 Q590 278 586 272 Q582 264 583 255 Q582 248 585 240 Z" fill="#0097a7" opacity="0.1" stroke="none"/>
+    <!-- Americas-like shape (right area, due to globe rotation) -->
+    <path d="M555 215 Q560 210 565 212 Q568 218 565 225 Q568 232 566 240 Q562 248 558 255 Q554 258 552 252 Q550 245 552 238 Q550 228 553 220 Z" fill="#0097a7" opacity="0.1" stroke="none"/>
+    <!-- Asia-Pacific shape -->
+    <path d="M625 240 Q630 238 634 242 Q636 248 633 254 Q636 260 632 265 Q628 268 624 264 Q620 258 622 250 Q620 244 625 240 Z" fill="#0097a7" opacity="0.09" stroke="none"/>
+
+    <!-- Small highlight dot on globe (specular reflection) -->
+    <circle cx="578" cy="210" r="8" fill="#fff" opacity="0.06"/>
+
+    <!-- Convergence nodes around the globe -->
+    <circle cx="490" cy="220" r="4.5" fill="#0097a7" opacity="0.28"/>
+    <circle cx="505" cy="285" r="4" fill="#0097a7" opacity="0.25"/>
+    <circle cx="530" cy="190" r="3.5" fill="#0097a7" opacity="0.22"/>
+    <circle cx="710" cy="225" r="4.5" fill="#00bcd4" opacity="0.28"/>
+    <circle cx="695" cy="285" r="4" fill="#00bcd4" opacity="0.25"/>
+    <circle cx="670" cy="195" r="3.5" fill="#00bcd4" opacity="0.22"/>
+    <circle cx="540" cy="310" r="3" fill="#0097a7" opacity="0.18"/>
+    <circle cx="660" cy="310" r="3" fill="#00bcd4" opacity="0.18"/>
+
+    <!-- Orbital nodes on the ring -->
+    <circle cx="480" cy="250" r="5" fill="#0097a7" opacity="0.3"/>
+    <circle cx="720" cy="250" r="5" fill="#00bcd4" opacity="0.3"/>
+    <circle cx="600" cy="130" r="4" fill="#0097a7" opacity="0.2"/>
+    <circle cx="600" cy="370" r="4" fill="#0097a7" opacity="0.2"/>
+    <circle cx="510" cy="165" r="3.5" fill="#0097a7" opacity="0.18"/>
+    <circle cx="690" cy="165" r="3.5" fill="#00bcd4" opacity="0.18"/>
+    <circle cx="510" cy="335" r="3.5" fill="#0097a7" opacity="0.18"/>
+    <circle cx="690" cy="335" r="3.5" fill="#00bcd4" opacity="0.18"/>
+
+    <!-- Connections wrapping around the globe (neural side) -->
+    <path d="M490 220 Q520 200 530 190" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
+    <path d="M490 220 Q495 250 505 285" stroke="#0097a7" stroke-width="0.8" opacity="0.13" fill="none"/>
+    <path d="M480 250 Q485 235 490 220" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
+    <path d="M480 250 Q490 268 505 285" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
+    <path d="M530 190 Q560 170 600 130" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M505 285 Q520 300 540 310" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M540 310 Q570 345 600 370" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M510 165 Q530 178 530 190" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M510 335 Q525 322 540 310" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
+
+    <!-- Connections wrapping around the globe (digital side) -->
+    <path d="M710 225 Q690 210 670 195" stroke="#00bcd4" stroke-width="1" opacity="0.16" fill="none"/>
+    <path d="M710 225 Q705 255 695 285" stroke="#00bcd4" stroke-width="0.8" opacity="0.13" fill="none"/>
+    <path d="M720 250 Q715 238 710 225" stroke="#00bcd4" stroke-width="1" opacity="0.16" fill="none"/>
+    <path d="M720 250 Q710 268 695 285" stroke="#00bcd4" stroke-width="1" opacity="0.16" fill="none"/>
+    <path d="M670 195 Q640 170 600 130" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M695 285 Q680 300 660 310" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M660 310 Q630 345 600 370" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M690 165 Q680 178 670 195" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M690 335 Q675 322 660 310" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
+
+    <!-- Cross-connections at top and bottom (fusion) -->
+    <path d="M510 165 Q555 145 600 130" stroke="#0097a7" stroke-width="0.6" opacity="0.08" fill="none"/>
+    <path d="M690 165 Q645 145 600 130" stroke="#00bcd4" stroke-width="0.6" opacity="0.08" fill="none"/>
+    <path d="M510 335 Q555 355 600 370" stroke="#0097a7" stroke-width="0.6" opacity="0.08" fill="none"/>
+    <path d="M690 335 Q645 355 600 370" stroke="#00bcd4" stroke-width="0.6" opacity="0.08" fill="none"/>
   </g>
 
   <!-- ===== RIGHT SIDE: Artificial Intelligence - Digital Circuit Network ===== -->
@@ -135,6 +185,13 @@
     <path d="M1099 280 L1039 339" stroke-width="0.7" opacity="0.1"/>
     <path d="M859 159 L859 280" stroke-width="0.6" opacity="0.08" stroke-dasharray="3 5"/>
     <path d="M979 139 L979 280" stroke-width="0.6" opacity="0.08" stroke-dasharray="3 5"/>
+
+    <!-- Digital paths reaching toward the globe -->
+    <path d="M859 159 Q800 180 740 210" stroke-width="0.8" opacity="0.12"/>
+    <path d="M859 280 Q800 275 740 265" stroke-width="1.2" opacity="0.18"/>
+    <path d="M859 399 Q790 370 740 300" stroke-width="0.7" opacity="0.1"/>
+    <path d="M919 199 Q840 215 740 235" stroke-width="1" opacity="0.15"/>
+    <path d="M919 339 Q830 325 740 290" stroke-width="0.8" opacity="0.12"/>
 
     <!-- Data flow dots -->
     <circle cx="889" cy="179" r="1.5" fill="#00bcd4" opacity="0.3"/>
