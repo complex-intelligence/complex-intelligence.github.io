@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" fill="none">
   <defs>
-    <!-- Organic neural gradient (human intelligence - left) -->
-    <radialGradient id="neuralGlow" cx="30%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#0097a7" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0097a7" stop-opacity="0"/>
+    <!-- Human neuron glow (warmer teal) -->
+    <radialGradient id="neuralGlow" cx="25%" cy="50%" r="35%">
+      <stop offset="0%" stop-color="#00897b" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00897b" stop-opacity="0"/>
     </radialGradient>
-    <!-- Digital circuit gradient (AI - right) -->
-    <radialGradient id="digitalGlow" cx="70%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#00bcd4" stop-opacity="0.1"/>
+    <!-- AI network glow (cooler cyan) -->
+    <radialGradient id="digitalGlow" cx="75%" cy="50%" r="35%">
+      <stop offset="0%" stop-color="#00bcd4" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#00bcd4" stop-opacity="0"/>
     </radialGradient>
     <!-- Center earth glow -->
-    <radialGradient id="earthGlow" cx="50%" cy="50%" r="25%">
-      <stop offset="0%" stop-color="#0097a7" stop-opacity="0.18"/>
-      <stop offset="50%" stop-color="#0097a7" stop-opacity="0.06"/>
+    <radialGradient id="earthGlow" cx="50%" cy="50%" r="22%">
+      <stop offset="0%" stop-color="#0097a7" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#0097a7" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#0097a7" stop-opacity="0"/>
     </radialGradient>
   </defs>
@@ -23,57 +23,95 @@
   <rect width="1200" height="500" fill="url(#digitalGlow)"/>
   <rect width="1200" height="500" fill="url(#earthGlow)"/>
 
-  <!-- ===== LEFT SIDE: Human Intelligence - Organic Neural Network ===== -->
-  <g stroke="#0097a7" fill="none">
-    <!-- Neural nodes (organic, irregular spacing) -->
-    <circle cx="120" cy="180" r="4" fill="#0097a7" opacity="0.25"/>
-    <circle cx="80" cy="280" r="3.5" fill="#0097a7" opacity="0.2"/>
-    <circle cx="200" cy="120" r="3" fill="#0097a7" opacity="0.18"/>
-    <circle cx="180" cy="300" r="5" fill="#0097a7" opacity="0.22"/>
-    <circle cx="260" cy="200" r="4.5" fill="#0097a7" opacity="0.28"/>
-    <circle cx="300" cy="140" r="3" fill="#0097a7" opacity="0.15"/>
-    <circle cx="150" cy="380" r="3.5" fill="#0097a7" opacity="0.18"/>
-    <circle cx="240" cy="340" r="4" fill="#0097a7" opacity="0.2"/>
-    <circle cx="340" cy="260" r="5" fill="#0097a7" opacity="0.3"/>
-    <circle cx="320" cy="360" r="3" fill="#0097a7" opacity="0.15"/>
-    <circle cx="60" cy="150" r="2.5" fill="#0097a7" opacity="0.12"/>
-    <circle cx="100" cy="400" r="3" fill="#0097a7" opacity="0.14"/>
-    <circle cx="220" cy="220" r="3.5" fill="#0097a7" opacity="0.2"/>
+  <!-- ===== LEFT SIDE: Human Intelligence — Biological Neurons ===== -->
+  <!-- Characterized by: irregular cell bodies (soma), branching dendrites, curved axons, organic chaos -->
+  <g fill="none">
 
-    <!-- Neural connections (organic curves) -->
-    <path d="M120 180 Q160 160 200 120" stroke-width="1" opacity="0.15"/>
-    <path d="M120 180 Q100 230 80 280" stroke-width="1" opacity="0.12"/>
-    <path d="M120 180 Q180 190 260 200" stroke-width="1.2" opacity="0.18"/>
-    <path d="M200 120 Q250 150 300 140" stroke-width="0.8" opacity="0.12"/>
-    <path d="M260 200 Q220 240 180 300" stroke-width="1" opacity="0.15"/>
-    <path d="M80 280 Q130 290 180 300" stroke-width="1" opacity="0.13"/>
-    <path d="M180 300 Q210 320 240 340" stroke-width="1" opacity="0.14"/>
-    <path d="M260 200 Q300 230 340 260" stroke-width="1.2" opacity="0.2"/>
-    <path d="M240 340 Q280 300 340 260" stroke-width="1" opacity="0.16"/>
-    <path d="M150 380 Q200 360 240 340" stroke-width="0.8" opacity="0.12"/>
-    <path d="M340 260 Q330 310 320 360" stroke-width="0.8" opacity="0.12"/>
-    <path d="M60 150 Q90 165 120 180" stroke-width="0.8" opacity="0.1"/>
-    <path d="M100 400 Q125 390 150 380" stroke-width="0.7" opacity="0.1"/>
-    <path d="M200 120 Q210 170 220 220" stroke-width="0.8" opacity="0.12"/>
-    <path d="M220 220 Q240 210 260 200" stroke-width="0.8" opacity="0.13"/>
+    <!-- === Neuron 1: Large soma near center-left === -->
+    <!-- Soma (irregular blob shape) -->
+    <path d="M280 230 Q290 218 305 222 Q318 218 322 230 Q328 240 320 250 Q325 258 315 262 Q305 268 295 262 Q282 265 278 255 Q272 245 280 230 Z"
+          fill="#00897b" opacity="0.15" stroke="#00897b" stroke-width="0.5" stroke-opacity="0.2"/>
+    <!-- Nucleus hint -->
+    <circle cx="300" cy="242" r="5" fill="#00897b" opacity="0.08"/>
+    <!-- Axon (thick, long, curving) -->
+    <path d="M322 240 C360 235, 390 250, 420 240 C440 232, 450 238, 465 235"
+          stroke="#00897b" stroke-width="1.8" opacity="0.18"/>
+    <!-- Dendrites branching from soma (wispy, forking) -->
+    <path d="M280 235 C250 225, 230 210, 200 195" stroke="#00897b" stroke-width="1.2" opacity="0.15"/>
+    <path d="M200 195 C185 185, 165 180, 145 170" stroke="#00897b" stroke-width="0.7" opacity="0.1"/>
+    <path d="M200 195 C190 205, 175 215, 155 220" stroke="#00897b" stroke-width="0.6" opacity="0.09"/>
+    <path d="M282 250 C260 270, 240 285, 210 300" stroke="#00897b" stroke-width="1.1" opacity="0.14"/>
+    <path d="M210 300 C195 310, 175 315, 150 325" stroke="#00897b" stroke-width="0.6" opacity="0.08"/>
+    <path d="M210 300 C200 315, 195 335, 185 350" stroke="#00897b" stroke-width="0.5" opacity="0.07"/>
+    <path d="M290 222 C280 200, 275 180, 260 155" stroke="#00897b" stroke-width="1" opacity="0.13"/>
+    <path d="M260 155 C250 140, 235 130, 215 120" stroke="#00897b" stroke-width="0.6" opacity="0.08"/>
+    <path d="M260 155 C270 140, 275 125, 280 105" stroke="#00897b" stroke-width="0.5" opacity="0.07"/>
+    <path d="M315 262 C325 280, 330 300, 340 320" stroke="#00897b" stroke-width="0.9" opacity="0.12"/>
+    <path d="M340 320 C345 340, 340 355, 335 375" stroke="#00897b" stroke-width="0.5" opacity="0.07"/>
+    <!-- Axon terminal branches -->
+    <path d="M465 235 C475 230, 480 225, 485 218" stroke="#00897b" stroke-width="0.7" opacity="0.1"/>
+    <path d="M465 235 C475 240, 482 248, 488 255" stroke="#00897b" stroke-width="0.7" opacity="0.1"/>
+    <path d="M465 235 C478 235, 488 234, 495 232" stroke="#00897b" stroke-width="0.6" opacity="0.08"/>
 
-    <!-- Dendrite-like branches -->
-    <path d="M120 180 Q105 170 90 155" stroke-width="0.6" opacity="0.1"/>
-    <path d="M260 200 Q275 185 285 170" stroke-width="0.6" opacity="0.1"/>
-    <path d="M180 300 Q165 315 155 335" stroke-width="0.6" opacity="0.1"/>
-    <path d="M340 260 Q355 250 365 235" stroke-width="0.6" opacity="0.1"/>
+    <!-- === Neuron 2: Upper-left smaller neuron === -->
+    <path d="M110 160 Q118 150 128 155 Q135 150 138 160 Q142 168 134 173 Q128 178 120 173 Q112 176 108 168 Q105 162 110 160 Z"
+          fill="#00897b" opacity="0.12" stroke="#00897b" stroke-width="0.4" stroke-opacity="0.15"/>
+    <!-- Dendrites -->
+    <path d="M108 162 C85 150, 65 140, 40 130" stroke="#00897b" stroke-width="0.8" opacity="0.1"/>
+    <path d="M40 130 C25 122, 15 115, 5 105" stroke="#00897b" stroke-width="0.4" opacity="0.06"/>
+    <path d="M115 155 C105 135, 95 115, 80 95" stroke="#00897b" stroke-width="0.7" opacity="0.09"/>
+    <path d="M80 95 C70 80, 55 72, 40 65" stroke="#00897b" stroke-width="0.4" opacity="0.06"/>
+    <path d="M80 95 C85 80, 90 65, 95 50" stroke="#00897b" stroke-width="0.35" opacity="0.05"/>
+    <path d="M135 155 C150 140, 165 130, 180 118" stroke="#00897b" stroke-width="0.6" opacity="0.08"/>
+    <!-- Axon toward Neuron 1 -->
+    <path d="M138 165 C165 175, 200 190, 230 210 C250 220, 270 228, 280 232"
+          stroke="#00897b" stroke-width="1" opacity="0.12"/>
 
-    <!-- Neural paths reaching toward the globe -->
-    <path d="M340 260 Q400 255 460 248" stroke-width="1.2" opacity="0.18"/>
-    <path d="M300 140 Q380 170 460 210" stroke-width="0.8" opacity="0.12"/>
-    <path d="M240 340 Q350 320 460 290" stroke-width="0.8" opacity="0.12"/>
-    <path d="M260 200 Q360 210 460 230" stroke-width="1" opacity="0.15"/>
-    <path d="M180 300 Q320 300 460 275" stroke-width="0.7" opacity="0.1"/>
+    <!-- === Neuron 3: Lower-left neuron === -->
+    <path d="M130 350 Q138 340 148 345 Q156 340 158 350 Q162 358 154 363 Q148 368 140 364 Q132 367 128 360 Q125 354 130 350 Z"
+          fill="#00897b" opacity="0.1" stroke="#00897b" stroke-width="0.4" stroke-opacity="0.13"/>
+    <!-- Dendrites -->
+    <path d="M128 355 C105 360, 80 370, 55 380" stroke="#00897b" stroke-width="0.7" opacity="0.09"/>
+    <path d="M55 380 C40 388, 25 395, 10 405" stroke="#00897b" stroke-width="0.35" opacity="0.05"/>
+    <path d="M135 366 C125 385, 115 400, 100 420" stroke="#00897b" stroke-width="0.6" opacity="0.08"/>
+    <path d="M100 420 C90 435, 80 445, 65 460" stroke="#00897b" stroke-width="0.35" opacity="0.05"/>
+    <path d="M155 366 C165 385, 170 400, 175 420" stroke="#00897b" stroke-width="0.5" opacity="0.07"/>
+    <path d="M145 342 C140 320, 130 300, 120 280" stroke="#00897b" stroke-width="0.6" opacity="0.08"/>
+    <!-- Axon toward Neuron 1 -->
+    <path d="M158 352 C190 340, 220 320, 250 300 C270 285, 285 268, 295 260"
+          stroke="#00897b" stroke-width="0.9" opacity="0.11"/>
+
+    <!-- === Neuron 4: Far left small neuron === -->
+    <path d="M50 240 Q56 233 64 237 Q70 233 72 240 Q75 246 68 250 Q62 254 56 250 Q50 252 48 246 Q46 241 50 240 Z"
+          fill="#00897b" opacity="0.08" stroke="#00897b" stroke-width="0.3" stroke-opacity="0.1"/>
+    <path d="M48 242 C30 238, 15 230, 0 225" stroke="#00897b" stroke-width="0.5" opacity="0.06"/>
+    <path d="M55 252 C45 270, 35 285, 20 300" stroke="#00897b" stroke-width="0.5" opacity="0.06"/>
+    <path d="M72 243 C95 238, 105 235, 108 235" stroke="#00897b" stroke-width="0.5" opacity="0.06"/>
+
+    <!-- Synapse glow dots (scattered along connections) -->
+    <circle cx="230" cy="210" r="2.5" fill="#00897b" opacity="0.2"/>
+    <circle cx="155" cy="175" r="2" fill="#00897b" opacity="0.18"/>
+    <circle cx="220" cy="295" r="2" fill="#00897b" opacity="0.15"/>
+    <circle cx="350" cy="238" r="2.5" fill="#00897b" opacity="0.2"/>
+    <circle cx="265" cy="160" r="1.8" fill="#00897b" opacity="0.14"/>
+    <circle cx="190" cy="340" r="1.8" fill="#00897b" opacity="0.12"/>
+    <circle cx="420" cy="240" r="2" fill="#00897b" opacity="0.16"/>
+    <circle cx="100" cy="145" r="1.5" fill="#00897b" opacity="0.12"/>
+    <circle cx="90" cy="370" r="1.5" fill="#00897b" opacity="0.1"/>
+    <circle cx="338" cy="315" r="1.5" fill="#00897b" opacity="0.1"/>
+
+    <!-- Fine wispy filaments (background dendrite noise) -->
+    <path d="M30 170 C60 165, 75 180, 50 195" stroke="#00897b" stroke-width="0.3" opacity="0.05"/>
+    <path d="M170 90 C180 110, 165 125, 150 130" stroke="#00897b" stroke-width="0.3" opacity="0.05"/>
+    <path d="M70 310 C90 300, 100 315, 85 330" stroke="#00897b" stroke-width="0.3" opacity="0.04"/>
+    <path d="M240 380 C260 370, 275 385, 260 400" stroke="#00897b" stroke-width="0.3" opacity="0.04"/>
+    <path d="M310 130 C320 145, 305 155, 295 148" stroke="#00897b" stroke-width="0.3" opacity="0.04"/>
+    <path d="M350 350 C370 340, 380 355, 365 370" stroke="#00897b" stroke-width="0.25" opacity="0.04"/>
   </g>
 
   <!-- ===== CENTER: Globe / Earth ===== -->
   <g>
-    <!-- Outer orbital ring (complex intelligence surrounding earth) -->
+    <!-- Outer orbital ring -->
     <ellipse cx="600" cy="250" rx="120" ry="120" stroke="#0097a7" stroke-width="0.8" opacity="0.1" fill="none"/>
     <ellipse cx="600" cy="250" rx="105" ry="105" stroke="#0097a7" stroke-width="0.5" opacity="0.06" fill="none" stroke-dasharray="5 8"/>
 
@@ -90,135 +128,218 @@
     <ellipse cx="600" cy="250" rx="25" ry="72" stroke="#0097a7" stroke-width="0.7" opacity="0.12" fill="none"/>
     <ellipse cx="600" cy="250" rx="52" ry="72" stroke="#0097a7" stroke-width="0.6" opacity="0.1" fill="none"/>
 
-    <!-- Simplified continent shapes (symbolic, abstract) -->
-    <!-- Eurasia-like shape (upper area) -->
+    <!-- Simplified continent shapes -->
     <path d="M575 200 Q582 195 595 198 Q610 196 620 200 Q632 198 638 205 Q642 212 635 218 Q640 225 636 230 Q630 228 625 232 Q618 230 612 233 Q605 230 598 232 Q590 228 585 225 Q578 220 575 212 Z" fill="#0097a7" opacity="0.12" stroke="none"/>
-    <!-- Africa-like shape (left-center) -->
     <path d="M585 240 Q590 238 595 240 Q600 245 598 255 Q600 265 596 272 Q590 278 586 272 Q582 264 583 255 Q582 248 585 240 Z" fill="#0097a7" opacity="0.1" stroke="none"/>
-    <!-- Americas-like shape (right area, due to globe rotation) -->
     <path d="M555 215 Q560 210 565 212 Q568 218 565 225 Q568 232 566 240 Q562 248 558 255 Q554 258 552 252 Q550 245 552 238 Q550 228 553 220 Z" fill="#0097a7" opacity="0.1" stroke="none"/>
-    <!-- Asia-Pacific shape -->
     <path d="M625 240 Q630 238 634 242 Q636 248 633 254 Q636 260 632 265 Q628 268 624 264 Q620 258 622 250 Q620 244 625 240 Z" fill="#0097a7" opacity="0.09" stroke="none"/>
 
-    <!-- Small highlight dot on globe (specular reflection) -->
+    <!-- Specular highlight -->
     <circle cx="578" cy="210" r="8" fill="#fff" opacity="0.06"/>
 
-    <!-- Convergence nodes around the globe -->
-    <circle cx="490" cy="220" r="4.5" fill="#0097a7" opacity="0.28"/>
-    <circle cx="505" cy="285" r="4" fill="#0097a7" opacity="0.25"/>
-    <circle cx="530" cy="190" r="3.5" fill="#0097a7" opacity="0.22"/>
-    <circle cx="710" cy="225" r="4.5" fill="#00bcd4" opacity="0.28"/>
-    <circle cx="695" cy="285" r="4" fill="#00bcd4" opacity="0.25"/>
-    <circle cx="670" cy="195" r="3.5" fill="#00bcd4" opacity="0.22"/>
-    <circle cx="540" cy="310" r="3" fill="#0097a7" opacity="0.18"/>
-    <circle cx="660" cy="310" r="3" fill="#00bcd4" opacity="0.18"/>
+    <!-- Convergence nodes around globe (neural side - organic dots) -->
+    <circle cx="490" cy="222" r="4" fill="#00897b" opacity="0.22"/>
+    <circle cx="505" cy="282" r="3.5" fill="#00897b" opacity="0.2"/>
+    <circle cx="525" cy="192" r="3" fill="#00897b" opacity="0.18"/>
+    <circle cx="540" cy="308" r="2.5" fill="#00897b" opacity="0.15"/>
 
-    <!-- Orbital nodes on the ring -->
-    <circle cx="480" cy="250" r="5" fill="#0097a7" opacity="0.3"/>
-    <circle cx="720" cy="250" r="5" fill="#00bcd4" opacity="0.3"/>
-    <circle cx="600" cy="130" r="4" fill="#0097a7" opacity="0.2"/>
-    <circle cx="600" cy="370" r="4" fill="#0097a7" opacity="0.2"/>
-    <circle cx="510" cy="165" r="3.5" fill="#0097a7" opacity="0.18"/>
-    <circle cx="690" cy="165" r="3.5" fill="#00bcd4" opacity="0.18"/>
-    <circle cx="510" cy="335" r="3.5" fill="#0097a7" opacity="0.18"/>
-    <circle cx="690" cy="335" r="3.5" fill="#00bcd4" opacity="0.18"/>
+    <!-- Convergence nodes around globe (AI side - uniform circles) -->
+    <circle cx="710" cy="222" r="4" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.5" stroke-opacity="0.15"/>
+    <circle cx="695" cy="282" r="4" fill="#00bcd4" opacity="0.2" stroke="#00bcd4" stroke-width="0.5" stroke-opacity="0.15"/>
+    <circle cx="675" cy="192" r="4" fill="#00bcd4" opacity="0.18" stroke="#00bcd4" stroke-width="0.5" stroke-opacity="0.12"/>
+    <circle cx="660" cy="308" r="4" fill="#00bcd4" opacity="0.15" stroke="#00bcd4" stroke-width="0.5" stroke-opacity="0.12"/>
 
-    <!-- Connections wrapping around the globe (neural side) -->
-    <path d="M490 220 Q520 200 530 190" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
-    <path d="M490 220 Q495 250 505 285" stroke="#0097a7" stroke-width="0.8" opacity="0.13" fill="none"/>
-    <path d="M480 250 Q485 235 490 220" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
-    <path d="M480 250 Q490 268 505 285" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
-    <path d="M530 190 Q560 170 600 130" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
-    <path d="M505 285 Q520 300 540 310" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
-    <path d="M540 310 Q570 345 600 370" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
-    <path d="M510 165 Q530 178 530 190" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
-    <path d="M510 335 Q525 322 540 310" stroke="#0097a7" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <!-- Orbital nodes -->
+    <circle cx="480" cy="250" r="4.5" fill="#00897b" opacity="0.25"/>
+    <circle cx="720" cy="250" r="4.5" fill="#00bcd4" opacity="0.25" stroke="#00bcd4" stroke-width="0.5" stroke-opacity="0.15"/>
+    <circle cx="600" cy="130" r="3.5" fill="#0097a7" opacity="0.18"/>
+    <circle cx="600" cy="370" r="3.5" fill="#0097a7" opacity="0.18"/>
+    <circle cx="515" cy="165" r="3" fill="#00897b" opacity="0.15"/>
+    <circle cx="685" cy="165" r="3" fill="#00bcd4" opacity="0.15" stroke="#00bcd4" stroke-width="0.4" stroke-opacity="0.1"/>
+    <circle cx="515" cy="335" r="3" fill="#00897b" opacity="0.15"/>
+    <circle cx="685" cy="335" r="3" fill="#00bcd4" opacity="0.15" stroke="#00bcd4" stroke-width="0.4" stroke-opacity="0.1"/>
 
-    <!-- Connections wrapping around the globe (digital side) -->
-    <path d="M710 225 Q690 210 670 195" stroke="#00bcd4" stroke-width="1" opacity="0.16" fill="none"/>
-    <path d="M710 225 Q705 255 695 285" stroke="#00bcd4" stroke-width="0.8" opacity="0.13" fill="none"/>
-    <path d="M720 250 Q715 238 710 225" stroke="#00bcd4" stroke-width="1" opacity="0.16" fill="none"/>
-    <path d="M720 250 Q710 268 695 285" stroke="#00bcd4" stroke-width="1" opacity="0.16" fill="none"/>
-    <path d="M670 195 Q640 170 600 130" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
-    <path d="M695 285 Q680 300 660 310" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
-    <path d="M660 310 Q630 345 600 370" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
-    <path d="M690 165 Q680 178 670 195" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
-    <path d="M690 335 Q675 322 660 310" stroke="#00bcd4" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <!-- Neural side wrapping connections (curved, organic) -->
+    <path d="M480 250 Q485 235 490 222" stroke="#00897b" stroke-width="0.9" opacity="0.14" fill="none"/>
+    <path d="M480 250 Q490 266 505 282" stroke="#00897b" stroke-width="0.9" opacity="0.14" fill="none"/>
+    <path d="M490 222 Q508 205 525 192" stroke="#00897b" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M505 282 Q522 296 540 308" stroke="#00897b" stroke-width="0.7" opacity="0.1" fill="none"/>
+    <path d="M525 192 Q560 168 600 130" stroke="#00897b" stroke-width="0.6" opacity="0.08" fill="none"/>
+    <path d="M540 308 Q570 342 600 370" stroke="#00897b" stroke-width="0.6" opacity="0.08" fill="none"/>
+    <path d="M515 165 Q520 178 525 192" stroke="#00897b" stroke-width="0.5" opacity="0.07" fill="none"/>
+    <path d="M515 335 Q528 322 540 308" stroke="#00897b" stroke-width="0.5" opacity="0.07" fill="none"/>
 
-    <!-- Cross-connections at top and bottom (fusion) -->
-    <path d="M510 165 Q555 145 600 130" stroke="#0097a7" stroke-width="0.6" opacity="0.08" fill="none"/>
-    <path d="M690 165 Q645 145 600 130" stroke="#00bcd4" stroke-width="0.6" opacity="0.08" fill="none"/>
-    <path d="M510 335 Q555 355 600 370" stroke="#0097a7" stroke-width="0.6" opacity="0.08" fill="none"/>
-    <path d="M690 335 Q645 355 600 370" stroke="#00bcd4" stroke-width="0.6" opacity="0.08" fill="none"/>
+    <!-- AI side wrapping connections (straight lines) -->
+    <line x1="720" y1="250" x2="710" y2="222" stroke="#00bcd4" stroke-width="0.9" opacity="0.14"/>
+    <line x1="720" y1="250" x2="695" y2="282" stroke="#00bcd4" stroke-width="0.9" opacity="0.14"/>
+    <line x1="710" y1="222" x2="675" y2="192" stroke="#00bcd4" stroke-width="0.7" opacity="0.1"/>
+    <line x1="695" y1="282" x2="660" y2="308" stroke="#00bcd4" stroke-width="0.7" opacity="0.1"/>
+    <line x1="675" y1="192" x2="600" y2="130" stroke="#00bcd4" stroke-width="0.6" opacity="0.08"/>
+    <line x1="660" y1="308" x2="600" y2="370" stroke="#00bcd4" stroke-width="0.6" opacity="0.08"/>
+    <line x1="685" y1="165" x2="675" y2="192" stroke="#00bcd4" stroke-width="0.5" opacity="0.07"/>
+    <line x1="685" y1="335" x2="660" y2="308" stroke="#00bcd4" stroke-width="0.5" opacity="0.07"/>
+
+    <!-- Cross-connections top/bottom -->
+    <path d="M515 165 Q558 145 600 130" stroke="#00897b" stroke-width="0.5" opacity="0.06" fill="none"/>
+    <line x1="685" y1="165" x2="600" y2="130" stroke="#00bcd4" stroke-width="0.5" opacity="0.06"/>
+    <path d="M515 335 Q558 355 600 370" stroke="#00897b" stroke-width="0.5" opacity="0.06" fill="none"/>
+    <line x1="685" y1="335" x2="600" y2="370" stroke="#00bcd4" stroke-width="0.5" opacity="0.06"/>
   </g>
 
-  <!-- ===== RIGHT SIDE: Artificial Intelligence - Digital Circuit Network ===== -->
-  <g stroke="#00bcd4" fill="none">
-    <!-- Circuit nodes (geometric, grid-aligned) -->
-    <rect x="855" y="155" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.22" transform="rotate(45 859 159)"/>
-    <rect x="915" y="195" width="9" height="9" rx="1" fill="#00bcd4" opacity="0.28" transform="rotate(45 919.5 199.5)"/>
-    <rect x="975" y="135" width="7" height="7" rx="1" fill="#00bcd4" opacity="0.18" transform="rotate(45 978.5 138.5)"/>
-    <rect x="1035" y="195" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.2" transform="rotate(45 1039 199)"/>
-    <rect x="855" y="275" width="9" height="9" rx="1" fill="#00bcd4" opacity="0.25" transform="rotate(45 859.5 279.5)"/>
-    <rect x="975" y="275" width="10" height="10" rx="1" fill="#00bcd4" opacity="0.3" transform="rotate(45 980 280)"/>
-    <rect x="1095" y="275" width="7" height="7" rx="1" fill="#00bcd4" opacity="0.18" transform="rotate(45 1098.5 278.5)"/>
-    <rect x="915" y="335" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.2" transform="rotate(45 919 339)"/>
-    <rect x="1035" y="335" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.22" transform="rotate(45 1039 339)"/>
-    <rect x="855" y="395" width="7" height="7" rx="1" fill="#00bcd4" opacity="0.15" transform="rotate(45 858.5 398.5)"/>
-    <rect x="975" y="395" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.18" transform="rotate(45 979 399)"/>
-    <rect x="1095" y="155" width="7" height="7" rx="1" fill="#00bcd4" opacity="0.15" transform="rotate(45 1098.5 158.5)"/>
+  <!-- ===== RIGHT SIDE: Artificial Intelligence — Layered Neural Network ===== -->
+  <!-- Characterized by: uniform circles in vertical columns, straight-line fully-connected layers -->
+  <g fill="none">
 
-    <!-- Circuit paths (straight lines with right angles) -->
-    <path d="M859 159 L919 199" stroke-width="1" opacity="0.18"/>
-    <path d="M919 199 L979 139" stroke-width="0.8" opacity="0.12"/>
-    <path d="M919 199 L979 280" stroke-width="1.2" opacity="0.2"/>
-    <path d="M979 139 L1039 199" stroke-width="0.8" opacity="0.13"/>
-    <path d="M1039 199 L979 280" stroke-width="1" opacity="0.16"/>
-    <path d="M859 280 L919 199" stroke-width="1" opacity="0.15"/>
-    <path d="M859 280 L919 339" stroke-width="1" opacity="0.14"/>
-    <path d="M979 280 L1039 339" stroke-width="1" opacity="0.16"/>
-    <path d="M979 280 L1099 280" stroke-width="0.8" opacity="0.12"/>
-    <path d="M919 339 L979 399" stroke-width="0.8" opacity="0.12"/>
-    <path d="M1039 339 L979 399" stroke-width="0.8" opacity="0.12"/>
-    <path d="M859 399 L919 339" stroke-width="0.7" opacity="0.1"/>
-    <path d="M1039 199 L1099 159" stroke-width="0.7" opacity="0.1"/>
-    <path d="M1099 280 L1039 339" stroke-width="0.7" opacity="0.1"/>
-    <path d="M859 159 L859 280" stroke-width="0.6" opacity="0.08" stroke-dasharray="3 5"/>
-    <path d="M979 139 L979 280" stroke-width="0.6" opacity="0.08" stroke-dasharray="3 5"/>
+    <!-- Layer 1 (leftmost column, x≈780) — 5 nodes -->
+    <circle cx="790" cy="140" r="5" fill="#00bcd4" opacity="0.2" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.2"/>
+    <circle cx="790" cy="200" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="790" cy="260" r="5" fill="#00bcd4" opacity="0.25" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.25"/>
+    <circle cx="790" cy="320" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="790" cy="380" r="5" fill="#00bcd4" opacity="0.2" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.2"/>
 
-    <!-- Digital paths reaching toward the globe -->
-    <path d="M859 159 Q800 180 740 210" stroke-width="0.8" opacity="0.12"/>
-    <path d="M859 280 Q800 275 740 265" stroke-width="1.2" opacity="0.18"/>
-    <path d="M859 399 Q790 370 740 300" stroke-width="0.7" opacity="0.1"/>
-    <path d="M919 199 Q840 215 740 235" stroke-width="1" opacity="0.15"/>
-    <path d="M919 339 Q830 325 740 290" stroke-width="0.8" opacity="0.12"/>
+    <!-- Layer 2 (x≈880) — 6 nodes -->
+    <circle cx="880" cy="120" r="5" fill="#00bcd4" opacity="0.18" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.18"/>
+    <circle cx="880" cy="175" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="880" cy="230" r="5" fill="#00bcd4" opacity="0.26" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.26"/>
+    <circle cx="880" cy="285" r="5" fill="#00bcd4" opacity="0.26" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.26"/>
+    <circle cx="880" cy="340" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="880" cy="395" r="5" fill="#00bcd4" opacity="0.18" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.18"/>
 
-    <!-- Data flow dots -->
-    <circle cx="889" cy="179" r="1.5" fill="#00bcd4" opacity="0.3"/>
-    <circle cx="949" cy="240" r="1.5" fill="#00bcd4" opacity="0.25"/>
-    <circle cx="1009" cy="240" r="1.5" fill="#00bcd4" opacity="0.25"/>
-    <circle cx="889" cy="310" r="1.5" fill="#00bcd4" opacity="0.2"/>
-    <circle cx="1009" cy="310" r="1.5" fill="#00bcd4" opacity="0.2"/>
-    <circle cx="949" cy="370" r="1.5" fill="#00bcd4" opacity="0.18"/>
+    <!-- Layer 3 (x≈970) — 6 nodes -->
+    <circle cx="970" cy="120" r="5" fill="#00bcd4" opacity="0.18" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.18"/>
+    <circle cx="970" cy="175" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="970" cy="230" r="5" fill="#00bcd4" opacity="0.28" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.28"/>
+    <circle cx="970" cy="285" r="5" fill="#00bcd4" opacity="0.28" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.28"/>
+    <circle cx="970" cy="340" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="970" cy="395" r="5" fill="#00bcd4" opacity="0.18" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.18"/>
+
+    <!-- Layer 4 (x≈1060) — 5 nodes -->
+    <circle cx="1060" cy="150" r="5" fill="#00bcd4" opacity="0.2" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.2"/>
+    <circle cx="1060" cy="210" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="1060" cy="270" r="5" fill="#00bcd4" opacity="0.25" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.25"/>
+    <circle cx="1060" cy="330" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="1060" cy="390" r="5" fill="#00bcd4" opacity="0.18" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.18"/>
+
+    <!-- Layer 5 (rightmost, x≈1140) — 3 nodes -->
+    <circle cx="1140" cy="195" r="5" fill="#00bcd4" opacity="0.2" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.2"/>
+    <circle cx="1140" cy="265" r="5" fill="#00bcd4" opacity="0.22" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.22"/>
+    <circle cx="1140" cy="335" r="5" fill="#00bcd4" opacity="0.2" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.2"/>
+
+    <!-- Connections: Layer 1 → Layer 2 (all straight lines, fully connected) -->
+    <!-- From node at y=140 -->
+    <line x1="795" y1="140" x2="875" y2="120" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="795" y1="140" x2="875" y2="175" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="795" y1="140" x2="875" y2="230" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <line x1="795" y1="140" x2="875" y2="285" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="795" y1="140" x2="875" y2="340" stroke="#00bcd4" stroke-width="0.3" opacity="0.04"/>
+    <line x1="795" y1="140" x2="875" y2="395" stroke="#00bcd4" stroke-width="0.3" opacity="0.03"/>
+    <!-- From node at y=200 -->
+    <line x1="795" y1="200" x2="875" y2="120" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <line x1="795" y1="200" x2="875" y2="175" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="795" y1="200" x2="875" y2="230" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="795" y1="200" x2="875" y2="285" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <line x1="795" y1="200" x2="875" y2="340" stroke="#00bcd4" stroke-width="0.4" opacity="0.05"/>
+    <line x1="795" y1="200" x2="875" y2="395" stroke="#00bcd4" stroke-width="0.3" opacity="0.03"/>
+    <!-- From node at y=260 -->
+    <line x1="795" y1="260" x2="875" y2="120" stroke="#00bcd4" stroke-width="0.4" opacity="0.05"/>
+    <line x1="795" y1="260" x2="875" y2="175" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="795" y1="260" x2="875" y2="230" stroke="#00bcd4" stroke-width="0.5" opacity="0.14"/>
+    <line x1="795" y1="260" x2="875" y2="285" stroke="#00bcd4" stroke-width="0.5" opacity="0.14"/>
+    <line x1="795" y1="260" x2="875" y2="340" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="795" y1="260" x2="875" y2="395" stroke="#00bcd4" stroke-width="0.4" opacity="0.05"/>
+    <!-- From node at y=320 -->
+    <line x1="795" y1="320" x2="875" y2="175" stroke="#00bcd4" stroke-width="0.4" opacity="0.05"/>
+    <line x1="795" y1="320" x2="875" y2="230" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <line x1="795" y1="320" x2="875" y2="285" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="795" y1="320" x2="875" y2="340" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="795" y1="320" x2="875" y2="395" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <!-- From node at y=380 -->
+    <line x1="795" y1="380" x2="875" y2="285" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="795" y1="380" x2="875" y2="340" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="795" y1="380" x2="875" y2="395" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+
+    <!-- Connections: Layer 2 → Layer 3 (representative subset for clarity) -->
+    <line x1="885" y1="120" x2="965" y2="120" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="885" y1="120" x2="965" y2="175" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <line x1="885" y1="120" x2="965" y2="230" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="885" y1="175" x2="965" y2="120" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <line x1="885" y1="175" x2="965" y2="175" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="885" y1="175" x2="965" y2="230" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="885" y1="175" x2="965" y2="285" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="885" y1="230" x2="965" y2="175" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="885" y1="230" x2="965" y2="230" stroke="#00bcd4" stroke-width="0.5" opacity="0.15"/>
+    <line x1="885" y1="230" x2="965" y2="285" stroke="#00bcd4" stroke-width="0.5" opacity="0.15"/>
+    <line x1="885" y1="230" x2="965" y2="340" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="885" y1="285" x2="965" y2="230" stroke="#00bcd4" stroke-width="0.5" opacity="0.15"/>
+    <line x1="885" y1="285" x2="965" y2="285" stroke="#00bcd4" stroke-width="0.5" opacity="0.15"/>
+    <line x1="885" y1="285" x2="965" y2="340" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="885" y1="340" x2="965" y2="285" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="885" y1="340" x2="965" y2="340" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="885" y1="340" x2="965" y2="395" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <line x1="885" y1="395" x2="965" y2="340" stroke="#00bcd4" stroke-width="0.5" opacity="0.08"/>
+    <line x1="885" y1="395" x2="965" y2="395" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+
+    <!-- Connections: Layer 3 → Layer 4 (representative subset) -->
+    <line x1="975" y1="120" x2="1055" y2="150" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="975" y1="120" x2="1055" y2="210" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="975" y1="175" x2="1055" y2="150" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="975" y1="175" x2="1055" y2="210" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="975" y1="175" x2="1055" y2="270" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="975" y1="230" x2="1055" y2="210" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="975" y1="230" x2="1055" y2="270" stroke="#00bcd4" stroke-width="0.5" opacity="0.15"/>
+    <line x1="975" y1="230" x2="1055" y2="330" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="975" y1="285" x2="1055" y2="210" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="975" y1="285" x2="1055" y2="270" stroke="#00bcd4" stroke-width="0.5" opacity="0.15"/>
+    <line x1="975" y1="285" x2="1055" y2="330" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="975" y1="340" x2="1055" y2="270" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="975" y1="340" x2="1055" y2="330" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="975" y1="340" x2="1055" y2="390" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="975" y1="395" x2="1055" y2="330" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="975" y1="395" x2="1055" y2="390" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+
+    <!-- Connections: Layer 4 → Layer 5 -->
+    <line x1="1065" y1="150" x2="1135" y2="195" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="1065" y1="150" x2="1135" y2="265" stroke="#00bcd4" stroke-width="0.4" opacity="0.05"/>
+    <line x1="1065" y1="210" x2="1135" y2="195" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="1065" y1="210" x2="1135" y2="265" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="1065" y1="270" x2="1135" y2="195" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="1065" y1="270" x2="1135" y2="265" stroke="#00bcd4" stroke-width="0.5" opacity="0.14"/>
+    <line x1="1065" y1="270" x2="1135" y2="335" stroke="#00bcd4" stroke-width="0.4" opacity="0.06"/>
+    <line x1="1065" y1="330" x2="1135" y2="265" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+    <line x1="1065" y1="330" x2="1135" y2="335" stroke="#00bcd4" stroke-width="0.5" opacity="0.12"/>
+    <line x1="1065" y1="390" x2="1135" y2="265" stroke="#00bcd4" stroke-width="0.4" opacity="0.05"/>
+    <line x1="1065" y1="390" x2="1135" y2="335" stroke="#00bcd4" stroke-width="0.5" opacity="0.1"/>
+
+    <!-- Output arrows from Layer 5 -->
+    <line x1="1145" y1="195" x2="1180" y2="195" stroke="#00bcd4" stroke-width="0.8" opacity="0.12"/>
+    <line x1="1145" y1="265" x2="1180" y2="265" stroke="#00bcd4" stroke-width="0.8" opacity="0.14"/>
+    <line x1="1145" y1="335" x2="1180" y2="335" stroke="#00bcd4" stroke-width="0.8" opacity="0.12"/>
+    <!-- Arrowheads -->
+    <path d="M1178 191 L1185 195 L1178 199" stroke="#00bcd4" stroke-width="0.6" opacity="0.12"/>
+    <path d="M1178 261 L1185 265 L1178 269" stroke="#00bcd4" stroke-width="0.6" opacity="0.14"/>
+    <path d="M1178 331 L1185 335 L1178 339" stroke="#00bcd4" stroke-width="0.6" opacity="0.12"/>
+
+    <!-- Connections from Layer 1 reaching toward the globe -->
+    <path d="M785 140 C760 155 740 180 730 210" stroke="#00bcd4" stroke-width="0.6" opacity="0.08"/>
+    <path d="M785 200 C765 210 748 225 738 238" stroke="#00bcd4" stroke-width="0.7" opacity="0.1"/>
+    <path d="M785 260 C760 260 740 258 725 255" stroke="#00bcd4" stroke-width="0.8" opacity="0.12"/>
+    <path d="M785 320 C765 310 748 295 738 280" stroke="#00bcd4" stroke-width="0.7" opacity="0.1"/>
+    <path d="M785 380 C760 365 740 340 730 310" stroke="#00bcd4" stroke-width="0.6" opacity="0.08"/>
   </g>
 
   <!-- ===== Scattered ambient dots ===== -->
   <g fill="#0097a7">
-    <circle cx="40" cy="100" r="1.5" opacity="0.08"/>
-    <circle cx="160" cy="60" r="1" opacity="0.06"/>
-    <circle cx="350" cy="80" r="1.5" opacity="0.07"/>
-    <circle cx="500" cy="120" r="1" opacity="0.06"/>
-    <circle cx="700" cy="100" r="1.5" opacity="0.07"/>
-    <circle cx="850" cy="80" r="1" opacity="0.06"/>
-    <circle cx="1050" cy="60" r="1.5" opacity="0.05"/>
-    <circle cx="50" cy="430" r="1" opacity="0.06"/>
-    <circle cx="280" cy="450" r="1.5" opacity="0.07"/>
-    <circle cx="480" cy="420" r="1" opacity="0.05"/>
-    <circle cx="720" cy="440" r="1.5" opacity="0.06"/>
-    <circle cx="950" cy="450" r="1" opacity="0.05"/>
-    <circle cx="1140" cy="420" r="1.5" opacity="0.06"/>
-    <circle cx="1100" cy="100" r="1" opacity="0.05"/>
-    <circle cx="30" cy="350" r="1" opacity="0.05"/>
-    <circle cx="1150" cy="380" r="1" opacity="0.05"/>
+    <circle cx="40" cy="100" r="1.5" opacity="0.06"/>
+    <circle cx="160" cy="60" r="1" opacity="0.05"/>
+    <circle cx="350" cy="80" r="1.5" opacity="0.06"/>
+    <circle cx="500" cy="110" r="1" opacity="0.05"/>
+    <circle cx="700" cy="90" r="1.5" opacity="0.05"/>
+    <circle cx="1050" cy="60" r="1.5" opacity="0.04"/>
+    <circle cx="50" cy="430" r="1" opacity="0.05"/>
+    <circle cx="280" cy="450" r="1.5" opacity="0.06"/>
+    <circle cx="480" cy="420" r="1" opacity="0.04"/>
+    <circle cx="720" cy="440" r="1.5" opacity="0.05"/>
+    <circle cx="950" cy="450" r="1" opacity="0.04"/>
+    <circle cx="1140" cy="420" r="1" opacity="0.04"/>
   </g>
 </svg>
