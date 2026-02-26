@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" fill="none">
+  <defs>
+    <!-- Organic neural gradient (human intelligence - left) -->
+    <radialGradient id="neuralGlow" cx="30%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#0097a7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0097a7" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Digital circuit gradient (AI - right) -->
+    <radialGradient id="digitalGlow" cx="70%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#00bcd4" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00bcd4" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Center fusion glow -->
+    <radialGradient id="fusionGlow" cx="50%" cy="50%" r="25%">
+      <stop offset="0%" stop-color="#0097a7" stop-opacity="0.15"/>
+      <stop offset="60%" stop-color="#0097a7" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0097a7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background glows -->
+  <rect width="1200" height="500" fill="url(#neuralGlow)"/>
+  <rect width="1200" height="500" fill="url(#digitalGlow)"/>
+  <rect width="1200" height="500" fill="url(#fusionGlow)"/>
+
+  <!-- ===== LEFT SIDE: Human Intelligence - Organic Neural Network ===== -->
+  <g stroke="#0097a7" fill="none">
+    <!-- Neural nodes (organic, irregular spacing) -->
+    <circle cx="120" cy="180" r="4" fill="#0097a7" opacity="0.25"/>
+    <circle cx="80" cy="280" r="3.5" fill="#0097a7" opacity="0.2"/>
+    <circle cx="200" cy="120" r="3" fill="#0097a7" opacity="0.18"/>
+    <circle cx="180" cy="300" r="5" fill="#0097a7" opacity="0.22"/>
+    <circle cx="260" cy="200" r="4.5" fill="#0097a7" opacity="0.28"/>
+    <circle cx="300" cy="140" r="3" fill="#0097a7" opacity="0.15"/>
+    <circle cx="150" cy="380" r="3.5" fill="#0097a7" opacity="0.18"/>
+    <circle cx="240" cy="340" r="4" fill="#0097a7" opacity="0.2"/>
+    <circle cx="340" cy="260" r="5" fill="#0097a7" opacity="0.3"/>
+    <circle cx="320" cy="360" r="3" fill="#0097a7" opacity="0.15"/>
+    <circle cx="60" cy="150" r="2.5" fill="#0097a7" opacity="0.12"/>
+    <circle cx="100" cy="400" r="3" fill="#0097a7" opacity="0.14"/>
+    <circle cx="220" cy="220" r="3.5" fill="#0097a7" opacity="0.2"/>
+
+    <!-- Neural connections (organic curves) -->
+    <path d="M120 180 Q160 160 200 120" stroke-width="1" opacity="0.15"/>
+    <path d="M120 180 Q100 230 80 280" stroke-width="1" opacity="0.12"/>
+    <path d="M120 180 Q180 190 260 200" stroke-width="1.2" opacity="0.18"/>
+    <path d="M200 120 Q250 150 300 140" stroke-width="0.8" opacity="0.12"/>
+    <path d="M260 200 Q220 240 180 300" stroke-width="1" opacity="0.15"/>
+    <path d="M80 280 Q130 290 180 300" stroke-width="1" opacity="0.13"/>
+    <path d="M180 300 Q210 320 240 340" stroke-width="1" opacity="0.14"/>
+    <path d="M260 200 Q300 230 340 260" stroke-width="1.2" opacity="0.2"/>
+    <path d="M240 340 Q280 300 340 260" stroke-width="1" opacity="0.16"/>
+    <path d="M150 380 Q200 360 240 340" stroke-width="0.8" opacity="0.12"/>
+    <path d="M340 260 Q330 310 320 360" stroke-width="0.8" opacity="0.12"/>
+    <path d="M60 150 Q90 165 120 180" stroke-width="0.8" opacity="0.1"/>
+    <path d="M100 400 Q125 390 150 380" stroke-width="0.7" opacity="0.1"/>
+    <path d="M200 120 Q210 170 220 220" stroke-width="0.8" opacity="0.12"/>
+    <path d="M220 220 Q240 210 260 200" stroke-width="0.8" opacity="0.13"/>
+
+    <!-- Dendrite-like branches -->
+    <path d="M120 180 Q105 170 90 155" stroke-width="0.6" opacity="0.1"/>
+    <path d="M260 200 Q275 185 285 170" stroke-width="0.6" opacity="0.1"/>
+    <path d="M180 300 Q165 315 155 335" stroke-width="0.6" opacity="0.1"/>
+    <path d="M340 260 Q355 250 365 235" stroke-width="0.6" opacity="0.1"/>
+  </g>
+
+  <!-- ===== CENTER: Fusion Zone ===== -->
+  <g>
+    <!-- Central merging circle (subtle) -->
+    <circle cx="600" cy="250" r="80" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <circle cx="600" cy="250" r="55" stroke="#0097a7" stroke-width="0.5" opacity="0.08" fill="none" stroke-dasharray="4 6"/>
+
+    <!-- Convergence nodes -->
+    <circle cx="520" cy="220" r="5" fill="#0097a7" opacity="0.3"/>
+    <circle cx="560" cy="280" r="4.5" fill="#0097a7" opacity="0.28"/>
+    <circle cx="600" cy="200" r="5.5" fill="#0097a7" opacity="0.35"/>
+    <circle cx="600" cy="300" r="4" fill="#0097a7" opacity="0.25"/>
+    <circle cx="640" cy="230" r="5" fill="#0097a7" opacity="0.32"/>
+    <circle cx="680" cy="270" r="4.5" fill="#0097a7" opacity="0.28"/>
+    <circle cx="600" cy="250" r="6" fill="#0097a7" opacity="0.18"/>
+
+    <!-- Fusion connections (mix of curves and lines) -->
+    <path d="M520 220 Q560 210 600 200" stroke="#0097a7" stroke-width="1.2" opacity="0.2" fill="none"/>
+    <path d="M520 220 Q540 250 560 280" stroke="#0097a7" stroke-width="1" opacity="0.18" fill="none"/>
+    <path d="M600 200 Q620 215 640 230" stroke="#0097a7" stroke-width="1.2" opacity="0.22" fill="none"/>
+    <path d="M640 230 Q660 250 680 270" stroke="#0097a7" stroke-width="1" opacity="0.18" fill="none"/>
+    <path d="M560 280 Q580 290 600 300" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
+    <path d="M600 300 Q640 285 680 270" stroke="#0097a7" stroke-width="1" opacity="0.16" fill="none"/>
+    <path d="M600 200 Q600 225 600 250" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <path d="M600 250 Q600 275 600 300" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <path d="M520 220 Q560 235 600 250" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <path d="M600 250 Q640 250 680 270" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+
+    <!-- Incoming paths from left (neural) side -->
+    <path d="M400 230 Q460 225 520 220" stroke="#0097a7" stroke-width="1" opacity="0.15" fill="none"/>
+    <path d="M420 290 Q490 285 560 280" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <path d="M440 180 Q520 190 600 200" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+
+    <!-- Outgoing paths to right (digital) side -->
+    <path d="M640 230 Q720 225 800 210" stroke="#0097a7" stroke-width="1" opacity="0.15" fill="none"/>
+    <path d="M680 270 Q730 275 780 290" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+    <path d="M600 300 Q700 310 780 340" stroke="#0097a7" stroke-width="0.8" opacity="0.12" fill="none"/>
+  </g>
+
+  <!-- ===== RIGHT SIDE: Artificial Intelligence - Digital Circuit Network ===== -->
+  <g stroke="#00bcd4" fill="none">
+    <!-- Circuit nodes (geometric, grid-aligned) -->
+    <rect x="855" y="155" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.22" transform="rotate(45 859 159)"/>
+    <rect x="915" y="195" width="9" height="9" rx="1" fill="#00bcd4" opacity="0.28" transform="rotate(45 919.5 199.5)"/>
+    <rect x="975" y="135" width="7" height="7" rx="1" fill="#00bcd4" opacity="0.18" transform="rotate(45 978.5 138.5)"/>
+    <rect x="1035" y="195" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.2" transform="rotate(45 1039 199)"/>
+    <rect x="855" y="275" width="9" height="9" rx="1" fill="#00bcd4" opacity="0.25" transform="rotate(45 859.5 279.5)"/>
+    <rect x="975" y="275" width="10" height="10" rx="1" fill="#00bcd4" opacity="0.3" transform="rotate(45 980 280)"/>
+    <rect x="1095" y="275" width="7" height="7" rx="1" fill="#00bcd4" opacity="0.18" transform="rotate(45 1098.5 278.5)"/>
+    <rect x="915" y="335" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.2" transform="rotate(45 919 339)"/>
+    <rect x="1035" y="335" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.22" transform="rotate(45 1039 339)"/>
+    <rect x="855" y="395" width="7" height="7" rx="1" fill="#00bcd4" opacity="0.15" transform="rotate(45 858.5 398.5)"/>
+    <rect x="975" y="395" width="8" height="8" rx="1" fill="#00bcd4" opacity="0.18" transform="rotate(45 979 399)"/>
+    <rect x="1095" y="155" width="7" height="7" rx="1" fill="#00bcd4" opacity="0.15" transform="rotate(45 1098.5 158.5)"/>
+
+    <!-- Circuit paths (straight lines with right angles) -->
+    <path d="M859 159 L919 199" stroke-width="1" opacity="0.18"/>
+    <path d="M919 199 L979 139" stroke-width="0.8" opacity="0.12"/>
+    <path d="M919 199 L979 280" stroke-width="1.2" opacity="0.2"/>
+    <path d="M979 139 L1039 199" stroke-width="0.8" opacity="0.13"/>
+    <path d="M1039 199 L979 280" stroke-width="1" opacity="0.16"/>
+    <path d="M859 280 L919 199" stroke-width="1" opacity="0.15"/>
+    <path d="M859 280 L919 339" stroke-width="1" opacity="0.14"/>
+    <path d="M979 280 L1039 339" stroke-width="1" opacity="0.16"/>
+    <path d="M979 280 L1099 280" stroke-width="0.8" opacity="0.12"/>
+    <path d="M919 339 L979 399" stroke-width="0.8" opacity="0.12"/>
+    <path d="M1039 339 L979 399" stroke-width="0.8" opacity="0.12"/>
+    <path d="M859 399 L919 339" stroke-width="0.7" opacity="0.1"/>
+    <path d="M1039 199 L1099 159" stroke-width="0.7" opacity="0.1"/>
+    <path d="M1099 280 L1039 339" stroke-width="0.7" opacity="0.1"/>
+    <path d="M859 159 L859 280" stroke-width="0.6" opacity="0.08" stroke-dasharray="3 5"/>
+    <path d="M979 139 L979 280" stroke-width="0.6" opacity="0.08" stroke-dasharray="3 5"/>
+
+    <!-- Data flow dots -->
+    <circle cx="889" cy="179" r="1.5" fill="#00bcd4" opacity="0.3"/>
+    <circle cx="949" cy="240" r="1.5" fill="#00bcd4" opacity="0.25"/>
+    <circle cx="1009" cy="240" r="1.5" fill="#00bcd4" opacity="0.25"/>
+    <circle cx="889" cy="310" r="1.5" fill="#00bcd4" opacity="0.2"/>
+    <circle cx="1009" cy="310" r="1.5" fill="#00bcd4" opacity="0.2"/>
+    <circle cx="949" cy="370" r="1.5" fill="#00bcd4" opacity="0.18"/>
+  </g>
+
+  <!-- ===== Scattered ambient dots ===== -->
+  <g fill="#0097a7">
+    <circle cx="40" cy="100" r="1.5" opacity="0.08"/>
+    <circle cx="160" cy="60" r="1" opacity="0.06"/>
+    <circle cx="350" cy="80" r="1.5" opacity="0.07"/>
+    <circle cx="500" cy="120" r="1" opacity="0.06"/>
+    <circle cx="700" cy="100" r="1.5" opacity="0.07"/>
+    <circle cx="850" cy="80" r="1" opacity="0.06"/>
+    <circle cx="1050" cy="60" r="1.5" opacity="0.05"/>
+    <circle cx="50" cy="430" r="1" opacity="0.06"/>
+    <circle cx="280" cy="450" r="1.5" opacity="0.07"/>
+    <circle cx="480" cy="420" r="1" opacity="0.05"/>
+    <circle cx="720" cy="440" r="1.5" opacity="0.06"/>
+    <circle cx="950" cy="450" r="1" opacity="0.05"/>
+    <circle cx="1140" cy="420" r="1.5" opacity="0.06"/>
+    <circle cx="1100" cy="100" r="1" opacity="0.05"/>
+    <circle cx="30" cy="350" r="1" opacity="0.05"/>
+    <circle cx="1150" cy="380" r="1" opacity="0.05"/>
+  </g>
+</svg>
